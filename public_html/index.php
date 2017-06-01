@@ -85,6 +85,9 @@
 								</div>
 							</div>
 
+							<!-- Google reCAPTCHA -->
+							<div class="g-recaptcha" data-sitekey="6Lf1zyMUAAAAAC8Dzz3pD0Lqclnqni7rtyXh9Kpe"></div>
+
 							<button class="btn btn-default" type="reset">Reset</button>
 							<button class="btn btn-info" type="submit">Submit</button>
 						</form>
