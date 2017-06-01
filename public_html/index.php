@@ -47,7 +47,7 @@
 					<div class="col-sm-6">
 
 						<!-- BEGIN CONTACT FORM -->
-						<form id="contact-form">
+						<form id="contact-form" method="POST" action="php/mailer.php">
 							<div class="form-group">
 								<label for="name">Name</label>
 								<div class="input-group">
@@ -81,7 +81,7 @@
 									<div class="input-group-addon">
 										<i class="fa fa-comment"></i>
 									</div>
-									<textarea name="message" rows="5" id="message" class="form-control" placeholder="Your Message (2000 charaters max)"></textarea>
+									<textarea rows="5" name="message" id="message" class="form-control" placeholder="Your Message (2000 charaters max)"></textarea>
 								</div>
 							</div>
 
@@ -92,6 +92,14 @@
 
 					</div><!-- /.col-sm-6 -->
 				</div><!-- /.row -->
+
+				<!-- EMPTY FORM OUTPUT AREA -->
+				<div class="row">
+					<div class="col-md-6">
+						<div id="output-area"></div>
+					</div>
+				</div>
+
 			</main>
 		</div>
 
